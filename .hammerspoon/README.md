@@ -1,6 +1,6 @@
 # .hammerspoon
 
-![Hammerspoon Logo](http://www.hammerspoon.org/images/hammerspoon.png
+![Hammerspoon Logo](http://www.hammerspoon.org/images/hammerspoon.png)
 
 ## Reference
 
