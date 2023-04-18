@@ -1,0 +1,42 @@
+[user]
+	name = swimmingone
+	email = dev.swimmingone@gmail.com
+[core]
+	precomposeunicode = true
+	quotepath = false
+	editor = code --wait
+	autocrlf = input
+	excludesfile = /Users/yooyoung-in/.gitignore_global
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[credential]
+	helper = cache
+[commit]
+	template = /Users/yooyoung-in/.stCommitMsg
+[init]
+	defaultBranch = main
+[pull]
+  rebase = true
+[alias]
+  sw = switch
+  sc = switch -c
+  c = commit
+  ca = !git add -A && git commit -m 
+  last = log -1 HEAD
+  l = log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %Cgreen(%cr) %C(magenta)<%an>%Creset'
+  hist = log --graph --all --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(white)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --date=short
+[push]
+	autoSetupRemote = true
