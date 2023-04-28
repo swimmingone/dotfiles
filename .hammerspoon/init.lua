@@ -17,3 +17,15 @@ end)
 hs.hotkey.bind({'shift', 'option'}, 'S', function()
     hs.application.launchOrFocus('Slack')
 end)
+
+hs.hotkey.bind({'shift', 'option'}, 'K', function()
+    hs.application.launchOrFocus('KakaoTalk')
+end)
+
+hs.hotkey.bind({'shift', 'option'}, 'O', function()
+    hs.application.launchOrFocus('Obsidian')
+end)
+
+hs.hotkey.bind({'shift', 'option'}, 'W', function()
+    hs.application.launchOrFocus('WorkFlowy')
+end)
