@@ -1,4 +1,5 @@
-require('enter_normal_mode_with_eng')
+require('modules.enter_normal_mode_with_eng')
+require('modules.inputsource_aurora')
 
 hs.hotkey.bind({'option', 'cmd'}, 'r',  hs.reload)
 
