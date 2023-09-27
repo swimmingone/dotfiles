@@ -1,5 +1,6 @@
 require('modules.enter_normal_mode_with_eng')
 require('modules.inputsource_aurora')
+require('modules.convert_new_line_to_comma')
 
 hs.hotkey.bind({'option', 'cmd'}, 'r',  hs.reload)
 
