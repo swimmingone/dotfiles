@@ -1,3 +1,4 @@
 set surround
 set NERDTree
 nmap \f :NERDTreeFind<CR>
+inoremap <C-F> <C-R>"
