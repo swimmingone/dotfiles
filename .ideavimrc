@@ -1,4 +1,6 @@
 set surround
 set NERDTree
+set ideaput
+set ideajoin
 nmap \f :NERDTreeFind<CR>
 inoremap <C-F> <C-R>"

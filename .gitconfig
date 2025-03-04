@@ -16,6 +16,7 @@
 	helper = cache
 [commit]
 	template = /Users/yooyoung-in/.stCommitMsg
+	verbose = true
 [init]
 	defaultBranch = main
 [pull]
@@ -30,3 +31,27 @@
   hist = log --graph --all --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(white)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --date=short
 [push]
 	autoSetupRemote = true
+	followTags = true
+	default = simple
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[diff]
+	colorMoved = plain
+	mnemonicPrefix = true
+	renames = true
+	algorithm = histogram
+[fetch]
+	pruneTags = true
+	all = true
+	prune = true
+[help]
+	autocorrect = prompt
+[rerere]
+	autoupdate = true
+	enabled = true
+[rebase]
+	autoStash = true
+	updateRefs = true
+	autoSquash = true
