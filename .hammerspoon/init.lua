@@ -12,6 +12,10 @@ hs.hotkey.bind({'shift', 'option'}, 'C', function()
     hs.application.launchOrFocus('Google Chrome')
 end)
 
+hs.hotkey.bind({'shift', 'option'}, 'F', function()
+    hs.application.launchOrFocus('Figma')
+end)
+
 hs.hotkey.bind({'shift', 'option'}, 'K', function()
     hs.application.launchOrFocus('KakaoTalk')
 end)
@@ -29,7 +33,7 @@ hs.hotkey.bind({'shift', 'option'}, 'S', function()
 end)
 
 hs.hotkey.bind({'shift', 'option'}, 'T', function()
-    hs.application.launchOrFocus('iTerm')
+    hs.application.launchOrFocus('Tiro')
 end)
 
 hs.hotkey.bind({'shift', 'option'}, 'W', function()
