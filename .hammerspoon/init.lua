@@ -33,7 +33,7 @@ hs.hotkey.bind({'shift', 'option'}, 'S', function()
 end)
 
 hs.hotkey.bind({'shift', 'option'}, 'T', function()
-    hs.application.launchOrFocus('Tiro')
+    hs.application.launchOrFocus('iTerm')
 end)
 
 hs.hotkey.bind({'shift', 'option'}, 'W', function()
