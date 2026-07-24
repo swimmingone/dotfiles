@@ -9,7 +9,7 @@ hs.hotkey.bind({'shift', 'option'}, 'A', function()
 end)
 
 hs.hotkey.bind({'shift', 'option'}, 'C', function()
-    hs.application.launchOrFocus('Google Chrome')
+    hs.application.launchOrFocus('Claude')
 end)
 
 hs.hotkey.bind({'shift', 'option'}, 'F', function()
