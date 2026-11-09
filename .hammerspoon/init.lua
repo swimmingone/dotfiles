@@ -4,12 +4,12 @@ require('modules.convert_new_line_to_comma')
 
 hs.hotkey.bind({'option', 'cmd'}, 'r',  hs.reload)
 
-hs.hotkey.bind({'shift', 'option'}, 'A', function()
-    hs.application.launchOrFocus('Arc')
-end)
-
 hs.hotkey.bind({'shift', 'option'}, 'C', function()
     hs.application.launchOrFocus('Claude')
+end)
+
+hs.hotkey.bind({'shift', 'option'}, 'D', function()
+    hs.application.launchOrFocus('Dia')
 end)
 
 hs.hotkey.bind({'shift', 'option'}, 'F', function()
